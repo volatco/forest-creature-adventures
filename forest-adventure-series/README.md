@@ -8,11 +8,11 @@ A comic and animation project featuring woodland characters learning about Volat
 character-bible/
 Defines characters and visual style.
 
-characters/
-Reference images for Fox and Hedgehog.
+references/
+Reference images for Fox and Hedgehog, all characters in the series, including Volatco.
 
-assets/
-Volatco board reference.
+poses/
+Detailed posing of characters for given episodes.
 
 prompts/
 Reusable prompts for generating comic panels.
