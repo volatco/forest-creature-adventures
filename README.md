@@ -14,15 +14,15 @@ volatco-woodland-comics/
 ├── character-bible/
 │   └── volatco_woodland_character_bible.md
 │
-├── characters/
-│   ├── fox.png
-│   ├── hedgehog.png
-│   ├── owl.png
-│   ├── mole.png
-│   └── squirrel.png
+├── references/
+│   ├── fox.jpg
+│   ├── hedgehog.jpg
+│   ├── owl.jpg
+│   ├── mole.jpg
+│   └── squirrel.jpg
 │
-├── assets/
-│   └── volatco-board.png
+├── poses/
+│   └── *.jpg
 │
 ├── prompts/
 │   ├── panel-template.md
@@ -32,23 +32,26 @@ volatco-woodland-comics/
 ├── episodes/
 │   ├── episode-001-owl-at-j8/
 │   │   ├── script.md
-│   │   ├── panel01.png
-│   │   ├── panel02.png
-│   │   ├── panel03.png
-│   │   ├── panel04.png
-│   │   ├── panel05.png
-│   │   ├── panel06.png
-│   │   └── final-comic.png
+│   │   ├── owl-at-j8.yaml
+│   │   ├── panel-01.jpg
+│   │   ├── panel-02.jpg
+│   │   ├── panel-03.jpg
+│   │   ├── panel-04.jpg
+│   │   ├── panel-05.jpg
+│   │   ├── panel-06.jpg
+│   │   ├── panel-07.jpg
+│   │   ├── panel-08.jpg
+│   │   └── owl-at-j8-episode.jpg
 │   │
 │   └── episode-002-jezek-quiet-trail/
 │       ├── script.md
-│       ├── panel01.png
-│       ├── panel02.png
-│       ├── panel03.png
-│       ├── panel04.png
-│       ├── panel05.png
-│       ├── panel06.png
-│       └── final-comic.png
+│       ├── panel-01.jpg
+│       ├── panel-02.jpg
+│       ├── panel-03.jpg
+│       ├── panel-04.jpg
+│       ├── panel-05.jpg
+│       ├── panel-06.jpg
+│       └── final-comic.jpg
 │
 └── animation/
     ├── gif-builder.md
