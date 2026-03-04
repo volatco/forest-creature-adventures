@@ -8,10 +8,10 @@ Have you heard about Volatco?
 Hedgehog:
 Is it a new kind of snack?
 
-Panel 2 – Fox gestures toward an imaginary computer
+Panel 2 – Fox gestures toward the Volatco image in a bubble
 
 Fox:
-Better. It’s a 144-core computer.
+It’s a 144-core computer.
 
 Hedgehog:
 One hundred and forty-four?!
@@ -22,12 +22,12 @@ Hedgehog:
 I only have one core.
 
 Fox:
-Yes… we’ve noticed.
+Yes… very true.
 
 Panel 4 – Fox explaining enthusiastically
 
 Fox:
-Each core runs its own tiny Forth machine.
+Each node runs its own tiny Forth machine.
 
 Hedgehog:
 Tiny machines inside a machine?
