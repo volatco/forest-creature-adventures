@@ -1,0 +1,15 @@
+title: Owl at J8
+
+objective: Configure a robust serial debug session and reset workflow.
+
+hardware_focus: J8 IDE serial and manual reset via J4.
+
+expected_outcome: Reliable flash/load/debug cycle during development.
+
+characters:
+  - Fox
+  - Hedgehog
+  - Owl
+  - Squirrel
+  - Badger
+  - Mole
