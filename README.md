@@ -5,6 +5,9 @@ Narrative expressions of learning with Volatco as told by animated cartoon chara
 
 ### Working outline
 
+The folder in this repo contains the prompt outline. Here is a summary...:
+
+```
 volatco-woodland-comics/
 │
 ├── README.md
@@ -50,3 +53,4 @@ volatco-woodland-comics/
 └── animation/
     ├── gif-builder.md
     └── animation-script.md
+```
