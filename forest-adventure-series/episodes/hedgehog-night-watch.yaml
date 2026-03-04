@@ -1,0 +1,13 @@
+title: Hedgehog Night Watch
+
+objective: Run long-duration watchdog validation with periodic health beacons.
+
+hardware_focus: J5 mode selection, watchdog pulse source on J7.
+
+expected_outcome: Automatic recovery from forced hangs.
+
+characters:
+  - Hedgehog
+  - Rabbit
+  - Owl
+  - Squirrel

@@ -1,10 +1,10 @@
 title: Jezek and the Quiet Trail
 
-objective: Configure a robust serial debug session and reset workflow.
+objective: Build a low-duty-cycle sensing loop that only wakes compute on events.
 
-hardware_focus: J8 IDE serial and manual reset via J4.
+hardware_focus: Wake/sleep transitions, watchdog-safe loops.
 
-expected_outcome: Reliable flash/load/debug cycle during development.
+expected_outcome: Stable event logging with low idle draw.
 
 characters:
   - Rabbit

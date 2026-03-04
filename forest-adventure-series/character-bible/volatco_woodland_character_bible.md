@@ -14,7 +14,7 @@ Sunny forest clearing, mossy ground, tree trunks, leafy canopy, warm daylight.
 
 ## Fox — The Architect
 
-![Fox Character](character-fox.jpg)
+![Fox Character](/forest-adventure-series/references/fox.jpg)
 
 **Role**  
 System architect and teacher of Volatco computing.
@@ -50,7 +50,7 @@ Example:
 
 ## Hedgehog — The Curious Learner
 
-![Hedgehog Character](character-hedgehog.jpg)
+![Hedgehog Character](/forest-adventure-series/references/hedgehog.jpg)
 
 **Role**  
 Audience surrogate who asks questions.
@@ -87,7 +87,7 @@ Example:
 
 ## The Volatco Computer
 
-![Volatco Board](volatco-approved-nobg.jpg)
+![Volatco Board](/forest-adventure-series/references/volatco-board.jpg)
 
 **Symbolism**
 Represents distributed asynchronous computing.
