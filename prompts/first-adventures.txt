@@ -1,0 +1,20 @@
+March 2026
+Prompts for the six adventures on the volatco.github.io page.
+
+Create a panel comic of the forest characters working on a Volatco. This forest creatures adventure should state: "Hedgehog Night Watch" where the objective is "Run long-duration watchdog validation with periodic health beacons. " the hardware focus is "J5 mode selection, watchdog pulse source on J7" with the expected outcome of "Automatic recovery from forced hangs".
+
+Create a panel comic of the forest characters working on a Volatco. This forest creatures adventure should state: "Viver and the Signal Bridge" with Viver the Squirel where the objective is "Forward sensor data between two nodes with bounded latency. " The hardware focus is: "Inter-node messaging, pin routing" with the expected outcome of "Repeatable packet transfer with measured timing.".
+
+Create a panel comic of the forest characters working on a Volatco. This forest creatures adventure should state: "Jezek and the Quiet Trail" with Jezek the Mole where the objective is "Build a low-duty-cycle sensing loop that only wakes compute on events." The hardware focus is: "Wake/sleep transitions, watchdog-safe loops" with the expected outcome of: "Stable event logging with low idle draw".
+
+Create a panel comic of the forest characters working on a Volatco. This forest creatures adventure should state: "Fox in the Rain" with Wolny the Fox where the objective is "Validate graceful behavior under noisy or intermittent inputs." The hardware focus is: "Input filtering, timeout handling" with the expected outcome of: "No lockups during bursty/noisy signal tests.". Use the fox character sample that is provided.
+
+Create a panel comic of the forest characters working on a Volatco. This forest creatures adventure should state: "Owl at J8" with Pippy the Owl where the objective is "Configure a robust serial debug session and reset workflow." The hardware focus is: "J8 IDE serial, manual reset via J4" with the expected outcome of: "Reliable flash/load/debug cycle during development.". 
+
+Create a panel comic of the forest characters working on a Volatco. This forest creatures adventure should state: "Badger Power Audit" with Benni the Badger where the objective is "Profile power across idle, active, and burst workloads." The hardware focus is: "Shunt measurement on J2/J3, workload scheduling" with the expected outcome of: "Baseline power table for reproducible experiments.". 
+
+Use the provided image to represent the Volatco board the characters are working on.
+
+---- Polishing
+
+Create a panel comic of the forest characters working on a Volatco. This forest creatures adventure should state: "Jezek and the Quiet Trail" with Jezek the Mole where the objective is "Build a low-duty-cycle sensing loop that only wakes compute on events." The hardware focus is: "Wake/sleep transitions, watchdog-safe loops" with the expected outcome of: "Stable event logging with low idle draw". Use the first comic as an example, remove the goggles from the owl, and use the provided Volatco image for the comic sequence.
