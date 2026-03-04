@@ -3,3 +3,6 @@ Prompts for still notions of Volatco
 
 Create a short dialogue between these two characters where they discuss Volatco and how it is superior to any other kind of computer. Be humorous.
 < attach fox, jezek, volatco >
+
+Use the attached script and provided character images to animate a six-panel comic.
+< attach fox, jezek, volatco, "script-superior-voaltco.md" >
