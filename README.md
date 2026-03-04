@@ -1,7 +1,7 @@
 ## The Forest Creature Adventures Series
 ### _Starring Volatco_
 
-Narrative expressions of learning with Volatco as told by animated cartoon characters.
+Narrative expressions of learning with Volatco as told by animated cartoon characters - will be coupled to polyForth AI as avatars.
 
 ### Working outline
 
