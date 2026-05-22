@@ -1,0 +1,34 @@
+The Mythical Origin of aeonForth
+
+Long before the creatures named ports and pulses, the forest kept time in older ways: thaw and frost, birdsong and silence, moonrise and seedfall. Fox called this pattern memory. Owl called it signal. Hedgehog called it the only map that never lied.
+
+In those days, the creatures depended on distant machines built by hands they would never meet. The rules came to them like weather from a sealed sky: updates without warning, failures without explanation, commands without meaning. When tools failed, they could not ask why. They could only wait.
+
+One winter dusk, after a failed watch and a lost day of tracks, they gathered by a dim workbench under cedar boughs. Squirrel spread out damaged notes, Rabbit marked missed migration signs, and Mole traced blind paths in the dirt. Owl spoke first:
+
+"If we cannot read the logic, we cannot trust the tool."
+
+Fox answered:
+
+"Then we build a language we can carry ourselves."
+
+They began with almost nothing: a stubborn board, noisy lines, and a promise not to hide knowledge from each other. Word by word, they built commands they could understand, repair, and teach. Their language did not arrive complete. It grew like a trail: one careful step, then another, always tested against the ground beneath their paws.
+
+They named it aeonForth.
+
+"Aeon" for deep time: seasons turning, generations learning, memory that outlives fear.
+"Forth" for movement: not backward into dependence, but forward into shared understanding.
+
+To the forest creatures, the name sounded strange at first, almost too large for a small workshop. But that was the point. It reminded them that even tiny communities can claim long time and wide sky if they keep their tools local, legible, and cooperative.
+
+So aeonForth became more than software. It became a covenant:
+
+- No critical step belongs to one mind alone.
+- No command is trusted until it is understood.
+- No failure is wasted if it is shared and explained.
+
+And whenever the line grows noisy, the reset goes wrong, or daylight thins, they return to the same vow:
+
+Understand together.
+Repair together.
+Go forth together.

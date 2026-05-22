@@ -8,37 +8,41 @@ Hardware Focus
 Volatco B board, J7 connector path, polyForth session bootstrap, cable orientation and signal sanity checks.
 
 Expected Outcome
-A repeatable VOLATCO-B workflow that survives reset and is ready for real program loading in later episodes.
+A repeatable VOLATCO-B polyForth workflow at 921600 that is stable enough to start loading and developing Forth programs for future episodes.
 
 ---
 
-Success Signals (from aeonForth workflow)
-- `VOLATCO-B` is the active polyForth raise path at `921600` baud.
-- `./scripts/monitor.sh status` shows a valid `VOLATCO-B` profile path.
-- `./scripts/monitor.sh attach B` (or `attach V`) reaches live board interaction.
-- Pressing Enter returns `ok` at the board console.
-- The sequence still works after an intentional reset and reconnect.
+Story Stakes
+- Hunter-gatherer practicality: wasted daylight and failed field decisions if systems are unreliable.
+- Technical autonomy: avoid dependence on opaque outside systems the team cannot repair.
+- Shared knowledge: cooperation and documentation keep capability in the group.
+- Time and season awareness: technical progress supports better orientation to patterns in their habitat.
+- Series purpose: every episode advances the team's ability to work confidently with aeonForth.
+- Origin memory: aeonForth began as a shared promise to understand, repair, and teach every critical step together.
 
 Panel 1
-Fox introduces the real mission: commission `VOLATCO-B` so future episodes can focus on building Forth programs, not fighting setup.
+Fox frames the real-world field problem and why this mission matters for their aeonForth journey.
 
 Panel 2
-Hedgehog asks why `VOLATCO-B` matters if another port "sort of works."
+Hedgehog asks the hardest practical question: what failure hurts us most if this breaks in the field?
 
 Panel 3
-Owl explains port roles and fixed speed: `VOLATCO-B` for raise path, `921600` baud.
+Owl explains the hardware focus and the first repeatable check.
 
 Panel 4
-They run `./scripts/monitor.sh profiles` and `./scripts/monitor.sh status` to confirm mapping before attach.
+The team runs a concrete validation step and records what success should look like.
 
 Panel 5
-Fox runs `./scripts/monitor.sh attach B`; Owl checks for prompt behavior and `ok` on Enter.
+Squirrel enforces setup discipline so the result is reproducible by others.
 
 Panel 6
-A reset is forced; Hedgehog watches reconnect behavior while Squirrel checks cable seating at J7.
+The team stress-tests one realistic failure mode and adapts their approach together.
 
 Panel 7
-They repeat attach and command echo checks; second pass matches the first pass, so program work can begin.
+Successful result: A repeatable VOLATCO-B polyForth workflow at 921600 that is stable enough to start loading and developing Forth programs for future episodes.
 
 Panel 8
-Owl closes with the commissioning rule: "No repeatable `ok` after reset means we are not ready to write new episode code yet."
+Closing handoff: this result strengthens the team's ability to work with aeonForth in future Forth program episodes.
+
+Epilogue Note
+Owl records the lesson as a covenant: no critical command is trusted until the team can explain it, repeat it, and repair it together.
