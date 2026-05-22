@@ -1,0 +1,9 @@
+Create Forest Creature Adventures
+
+Hi everyone, I’m raising funds to complete my short film, Forest Creature Adventures — a story set in a magical forest about courage, connection, and caring for nature with sustainable computing.
+
+The film is part of Volatco, a low-power multicomputer platform. Alongside the film, I’m building episodic interactive components that run on Volatco and share behind-the-scenes material, story-linked experiments, and clear build progress.
+
+Your support helps cover production and post costs: cinematography, sound, editing, music, festival submissions, and the tools and infrastructure needed to build and run the Volatco components.
+
+If you can donate, thank you. If not, sharing this campaign helps a lot.
