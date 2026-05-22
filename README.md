@@ -1,10 +1,20 @@
 # Forest Creature Adventures
 
+![Story Volatco 00](images/stories/story-volatco-00.jpg)
+
 A collaborative comic + animation series where woodland characters explore practical Volatco computing workflows, with a strong focus on reproducible, real-world bring-up steps.
 
 This repository is both:
 - A story project (episodes, panel scripts, prompts, visual assets)
 - A technical teaching artifact (episodes map to concrete hardware/software milestones)
+
+## Background Story
+
+In a woodland workshop, a small team of friends decides to learn advanced computing together through Volatco and Forth. Fox brings practical leadership, Owl brings deep debugging focus, Hedgehog asks the hard beginner questions, and Squirrel keeps the team grounded in careful setup and repeatable habits.
+
+Their adventures are not just about making hardware respond. Each episode teaches a real technical lesson and a human lesson at the same time: patience during failure, honest communication when something breaks, cooperation across different skill levels, and trust built through shared effort.
+
+As the series progresses, the characters grow from first connection challenges to building reliable Forth workflows and meaningful programs. The moral core stays constant: friendship and collaboration are not side stories, they are the way difficult engineering work becomes possible.
 
 ## Why This Repo Exists
 
@@ -15,7 +25,7 @@ The near-term goal is to help readers get from first connection to confidently w
 
 - Project overview: [forest-adventure-series/README.md](/home/cartheur/ame/aiventure/aiventure-github/volatco/forest-creature-adventures/forest-adventure-series/README.md)
 - Episode workspace: `forest-adventure-series/episodes/`
-- Primary first episode: [episode-001-volatco-b-j7-polyforth](/home/cartheur/ame/aiventure/aiventure-github/volatco/forest-creature-adventures/forest-adventure-series/episodes/episode-001-volatco-b-j7-polyforth)
+- Pilot Episode (primary first episode): [episode-001-volatco-b-j7-polyforth](/home/cartheur/ame/aiventure/aiventure-github/volatco/forest-creature-adventures/forest-adventure-series/episodes/episode-001-volatco-b-j7-polyforth)
 
 ## Current Episode Lineup
 
