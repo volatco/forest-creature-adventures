@@ -1,0 +1,33 @@
+{
+  "generated_at_utc": "2026-05-22T11:32:20.813936+00:00",
+  "episode_dir": "/home/cartheur/ame/aiventure/aiventure-github/volatco/forest-creature-adventures/forest-adventure-series/episodes/episode-001-volatco-b-j7-polyforth",
+  "preview_file": "/home/cartheur/ame/aiventure/aiventure-github/volatco/forest-creature-adventures/funding/EPISODE_001_PREVIEW.md",
+  "copied_files": [
+    "episode/script.md",
+    "episode/panel-prompts.md",
+    "episode/panel-checklist.txt",
+    "episode/volatco-b-j7-polyforth.yaml",
+    "funding/EPISODE_PREVIEW.md",
+    "assets/story-volatco-00.jpg",
+    "episode/panels/panel-01.jpg",
+    "episode/panels/panel-02.jpg",
+    "episode/panels/panel-03.jpg",
+    "episode/panels/panel-04.jpg",
+    "episode/panels/panel-05.jpg",
+    "episode/panels/panel-06.jpg",
+    "episode/panels/panel-07.jpg",
+    "episode/panels/panel-08.jpg"
+  ],
+  "panel_assets_found": [
+    "panel-01.jpg",
+    "panel-02.jpg",
+    "panel-03.jpg",
+    "panel-04.jpg",
+    "panel-05.jpg",
+    "panel-06.jpg",
+    "panel-07.jpg",
+    "panel-08.jpg"
+  ],
+  "panel_assets_missing": [],
+  "ready_for_public_post": true
+}

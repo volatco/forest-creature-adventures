@@ -1,0 +1,13 @@
+title: Volatco B at J7 polyForth Bring-up
+
+objective: Commission a reliable Volatco B polyForth path so the team can write and run Forth programs for future episodes.
+
+hardware_focus: Volatco B board, J7 connector path, polyForth session bootstrap, cable orientation and signal sanity checks.
+
+expected_outcome: A repeatable VOLATCO-B polyForth workflow at 921600 that is stable enough to start loading and developing Forth programs for future episodes.
+
+characters:
+  - Fox
+  - Owl
+  - Hedgehog
+  - Squirrel

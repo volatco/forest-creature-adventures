@@ -29,6 +29,9 @@ We want episodes that are entertaining and technically useful to help spread the
 - Project overview: [forest-adventure-series/README.md](/home/cartheur/ame/aiventure/aiventure-github/volatco/forest-creature-adventures/forest-adventure-series/README.md)
 - Episode workspace: `forest-adventure-series/episodes/`
 - Pilot Episode (primary first episode): [episode-001-volatco-b-j7-polyforth](/home/cartheur/ame/aiventure/aiventure-github/volatco/forest-creature-adventures/forest-adventure-series/episodes/episode-001-volatco-b-j7-polyforth)
+- Funding preview: [Episode 001 Preview](/home/cartheur/ame/aiventure/aiventure-github/volatco/forest-creature-adventures/funding/EPISODE_001_PREVIEW.md)
+- Funding plan: [Funding Campaign Plan](/home/cartheur/ame/aiventure/aiventure-github/volatco/forest-creature-adventures/funding/FUNDING_CAMPAIGN_PLAN.md)
+- Funding copy kit: [Funding Campaign Copy Kit](/home/cartheur/ame/aiventure/aiventure-github/volatco/forest-creature-adventures/funding/FUNDING_CAMPAIGN_COPY_KIT.md)
 
 ## Current Episode Lineup
 
