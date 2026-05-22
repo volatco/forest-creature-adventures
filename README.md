@@ -20,16 +20,9 @@ The story arc follows technical maturity: commissioning first, then stable debug
 
 Moral growth is inseparable from technical progress. The group learns that cooperation beats ego, careful communication prevents costly mistakes, and friendship turns frustrating failures into forward motion.
 
-## Value Added
+## Purposeful Goals
 
-- New collaborators can understand the series purpose, stakes, and sequence in one read.
-- Episode 001 is clearly justified as the foundation for all later program-building episodes.
-- Character roles now map directly to both technical and moral learning outcomes.
-
-## Why This Repo Exists
-
-We want episodes that are entertaining and technically useful.
-The near-term goal is to help readers get from first connection to confidently writing and running Forth programs on Volatco workflows.
+We want episodes that are entertaining and technically useful to help spread the good news about Volatco and polyForth, one of the most elegant out there. The near-term goal is to help readers get from first connection to confidently writing and running Forth programs on Volatco workflows.
 
 ## Where To Start
 
