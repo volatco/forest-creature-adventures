@@ -1,14 +1,14 @@
 
-# Owl at J8
+# Hedgehog Night Watch
 
 Objective
-Configure a robust serial debug session and reset workflow.
+Run long-duration watchdog validation with periodic health beacons.
 
 Hardware Focus
-J8 IDE serial and manual reset via J4.
+J5 mode selection, watchdog pulse source on J7.
 
 Expected Outcome
-Reliable flash/load/debug cycle during development.
+Automatic recovery from forced hangs.
 
 ---
 
