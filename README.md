@@ -10,7 +10,7 @@ This repository is both:
 
 ## Background Story
 
-In a woodland workshop, four friends discover that the only way to bring their ideas to life is to learn real hardware workflows, not just theory. They choose Volatco and Forth as their path, then commit to learning in public through shared adventures.
+In a woodland workshop, four friends discover that the only way to bring their ideas to life is to learn real hardware workflows, not just theory. They choose Volatco and Forth as their path, then commit to learning through shared adventures.
 
 The stakes are practical and personal. If they cannot build a reliable foundation, their tools misfire, their tracking and foraging plans fail in the field, and they lose precious daylight fixing avoidable setup mistakes. They also become dependent on outside computing systems that impose opaque rules they cannot interpret or repair on their own. If they succeed, they can create and run real Forth programs together across future episodes, including tools for tracking seasons and time so they can better understand and navigate their place in the universe.
 
