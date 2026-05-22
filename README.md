@@ -30,7 +30,7 @@ volatco-woodland-comics/
 │   └── hedgehog-dialogue.md
 │
 ├── episodes/
-│   ├── episode-001-owl-at-j8/
+│   ├── episode-001-volatco-b-j7-polyforth/
 │   │   ├── script.md
 │   │   ├── owl-at-j8.yaml
 │   │   ├── panel-01.jpg
@@ -43,7 +43,8 @@ volatco-woodland-comics/
 │   │   ├── panel-08.jpg
 │   │   └── owl-at-j8-episode.jpg
 │   │
-│   └── episode-002-jezek-quiet-trail/
+│   ├── episode-002-owl-at-j8/
+│   └── episode-003-jezek-quiet-trail/
 │       ├── script.md
 │       ├── panel-01.jpg
 │       ├── panel-02.jpg

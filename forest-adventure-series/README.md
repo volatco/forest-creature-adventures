@@ -31,6 +31,6 @@ Instructions for producing panel comics and animations.
 
 Start with:
 
-`episodes/episode-003-volatco-b-j7-polyforth/`
+`episodes/episode-001-volatco-b-j7-polyforth/`
 
 This episode is designed as a practical follow-along for the animation explainer, focused on the real-world challenge of establishing a stable Volatco B connection at J7 polyForth and proving repeatability across reset.
