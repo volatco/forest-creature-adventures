@@ -10,11 +10,21 @@ This repository is both:
 
 ## Background Story
 
-In a woodland workshop, a small team of friends decides to learn advanced computing together through Volatco and Forth. Fox brings practical leadership, Owl brings deep debugging focus, Hedgehog asks the hard beginner questions, and Squirrel keeps the team grounded in careful setup and repeatable habits.
+In a woodland workshop, four friends discover that the only way to bring their ideas to life is to learn real hardware workflows, not just theory. They choose Volatco and Forth as their path, then commit to learning in public through shared adventures.
 
-Their adventures are not just about making hardware respond. Each episode teaches a real technical lesson and a human lesson at the same time: patience during failure, honest communication when something breaks, cooperation across different skill levels, and trust built through shared effort.
+The stakes are practical and personal. If they cannot build a reliable foundation, their tools misfire, their tracking and foraging plans fail in the field, and they lose precious daylight fixing avoidable setup mistakes. They also become dependent on outside computing systems that impose opaque rules they cannot interpret or repair on their own. If they succeed, they can create and run real Forth programs together across future episodes, including tools for tracking seasons and time so they can better understand and navigate their place in the universe.
 
-As the series progresses, the characters grow from first connection challenges to building reliable Forth workflows and meaningful programs. The moral core stays constant: friendship and collaboration are not side stories, they are the way difficult engineering work becomes possible.
+Each character carries part of the journey. Fox leads decisions under uncertainty, Owl translates confusing signals into clear next steps, Hedgehog represents the honest beginner voice, and Squirrel protects repeatability through disciplined setup.
+
+The story arc follows technical maturity: commissioning first, then stable debug habits, then low-power behavior, then long-run reliability. This is why the Pilot Episode begins with Volatco B polyForth bring-up. The team must earn trust in the workflow before they can build bigger programs.
+
+Moral growth is inseparable from technical progress. The group learns that cooperation beats ego, careful communication prevents costly mistakes, and friendship turns frustrating failures into forward motion.
+
+## Value Added
+
+- New collaborators can understand the series purpose, stakes, and sequence in one read.
+- Episode 001 is clearly justified as the foundation for all later program-building episodes.
+- Character roles now map directly to both technical and moral learning outcomes.
 
 ## Why This Repo Exists
 

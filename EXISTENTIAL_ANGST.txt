@@ -1,0 +1,14 @@
+Forest Creature Adventures: Existential Angst
+
+They are hunter-gatherers, not industrial planners. Their lives depend on timing, pattern, weather, migration, memory, and trust. A missed signal is not just an inconvenience; it can mean wasted effort, lost daylight, and dangerous uncertainty.
+
+Their technical struggle begins with simple failures: unstable links, unclear resets, tools that misfire at the wrong moment. But beneath those failures is a deeper fear: dependence on outside computing systems that impose opaque rules they cannot interpret, question, or repair. If they cannot understand the systems governing their tools, they risk becoming strangers in their own habitat.
+
+What they want is not abstract control. They want practical autonomy. They want to track seasons, keep better time, and coordinate movement with confidence. They want computing that helps them read their environment instead of disconnecting them from it.
+
+Their angst is the tension between two futures:
+
+1. A future where complexity is always external, imposed, and alienating.
+2. A future where knowledge is shared, local, repairable, and rooted in friendship.
+
+This is why their collaboration matters. Fox, Owl, Hedgehog, and Squirrel are not just learning commands. They are building a way to think together under uncertainty. Their moral lesson and technical lesson are one: understanding is survival, and cooperation is how understanding lasts.

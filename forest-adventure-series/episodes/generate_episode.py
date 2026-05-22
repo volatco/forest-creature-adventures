@@ -34,6 +34,10 @@ def main() -> None:
     outcome = data["expected_outcome"]
     characters = data.get("characters", [])
     cast_line = ", ".join(characters) if characters else "Forest cast"
+    lead = characters[0] if len(characters) > 0 else "Fox"
+    learner = "Hedgehog" if "Hedgehog" in characters else (characters[1] if len(characters) > 1 else lead)
+    debugger = "Owl" if "Owl" in characters else (characters[2] if len(characters) > 2 else lead)
+    stabilizer = "Squirrel" if "Squirrel" in characters else (characters[-1] if characters else lead)
 
     script = f"""
 # {title}
@@ -49,29 +53,36 @@ Expected Outcome
 
 ---
 
+Story Stakes
+- Hunter-gatherer practicality: wasted daylight and failed field decisions if systems are unreliable.
+- Technical autonomy: avoid dependence on opaque outside systems the team cannot repair.
+- Shared knowledge: cooperation and documentation keep capability in the group.
+- Time and season awareness: technical progress supports better orientation to patterns in their habitat.
+- Series purpose: every episode advances the team's ability to work confidently with aeonForth.
+
 Panel 1
-Fox introduces the engineering problem.
+{lead} frames the real-world field problem and why this mission matters for their aeonForth journey.
 
 Panel 2
-Hedgehog misunderstands the concept.
+{learner} asks the hardest practical question: what failure hurts us most if this breaks in the field?
 
 Panel 3
-Fox explains the hardware.
+{debugger} explains the hardware focus and the first repeatable check.
 
 Panel 4
-Owl observes the signal behaviour.
+The team runs a concrete validation step and records what success should look like.
 
 Panel 5
-Fox clarifies the system architecture.
+{stabilizer} enforces setup discipline so the result is reproducible by others.
 
 Panel 6
-Hedgehog imagines an animal analogy.
+The team stress-tests one realistic failure mode and adapts their approach together.
 
 Panel 7
-The hardware works.
+Successful result: {outcome}
 
 Panel 8
-Humorous closing remark.
+Closing handoff: this result strengthens the team's ability to work with aeonForth in future Forth program episodes.
 """
 
     (output_dir / "script.md").write_text(script)
@@ -84,31 +95,38 @@ Environment: woodland forest clearing.
 Episode: {title}
 Cast: {cast_line}
 
+Theme anchors:
+- Hunter-gatherer practicality: preserve daylight, support tracking/foraging decisions.
+- Technical autonomy: resist opaque external systems with local, understandable workflows.
+- Cooperation and friendship: shared process over heroics.
+- Time/season orientation: gather reliable signals that improve place awareness.
+- Series direction: this episode should visibly contribute to working with aeonForth.
+
 Panel prompts:
 
 panel-01
-Introduce the problem: {objective}
+Introduce the practical field mission: {objective}
 
 panel-02
-Hedgehog confusion moment.
+{learner} asks a concrete failure-risk question tied to real-world consequences.
 
 panel-03
 Explain hardware: {hardware}
 
 panel-04
-Owl debugging scene.
+Validation scene: explicit success signal is visible and understandable by the whole team.
 
 panel-05
-System explanation.
+Reproducibility scene: checklist, role clarity, and shared notes prevent hidden knowledge.
 
 panel-06
-Animal metaphor joke.
+Stress-test scene: one realistic failure appears, and the team resolves it cooperatively.
 
 panel-07
 Successful result: {outcome}
 
 panel-08
-Humorous closing panel.
+Handoff panel: this episode's workflow directly improves the team's ability to work with aeonForth in future Forth program episodes.
 """
 
     (output_dir / "panel-prompts.md").write_text(prompts)
