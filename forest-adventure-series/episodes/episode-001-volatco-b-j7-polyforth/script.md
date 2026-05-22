@@ -12,6 +12,12 @@ A repeatable VOLATCO-B polyForth workflow at 921600 that is stable enough to sta
 
 ---
 
+aeonForth Command Milestones
+- `./scripts/monitor.sh profiles` and `./scripts/monitor.sh status` confirm usable profile mapping.
+- `./scripts/monitor.sh attach B` reaches direct board console on `VOLATCO-B`.
+- Enter returns `ok` at console, showing live interactive readiness.
+- After intentional reset/reconnect, the same `ok` response is recovered.
+
 Story Stakes
 - Hunter-gatherer practicality: wasted daylight and failed field decisions if systems are unreliable.
 - Technical autonomy: avoid dependence on opaque outside systems the team cannot repair.
@@ -27,16 +33,16 @@ Panel 2
 Hedgehog asks the hardest practical question: what failure hurts us most if this breaks in the field?
 
 Panel 3
-Owl explains the hardware focus and the first repeatable check.
+Owl explains `VOLATCO-B` role and `921600` requirement, then starts with `./scripts/monitor.sh status`.
 
 Panel 4
-The team runs a concrete validation step and records what success should look like.
+The team runs `./scripts/monitor.sh attach B`; success signal is explicit `ok` on Enter.
 
 Panel 5
-Squirrel enforces setup discipline so the result is reproducible by others.
+Squirrel records a minimal reproducible sequence: `profiles -> status -> attach B -> Enter -> ok`.
 
 Panel 6
-The team stress-tests one realistic failure mode and adapts their approach together.
+The team forces reset/reconnect and verifies the same `ok` recovery behavior, not a one-off success.
 
 Panel 7
 Successful result: A repeatable VOLATCO-B polyForth workflow at 921600 that is stable enough to start loading and developing Forth programs for future episodes.
