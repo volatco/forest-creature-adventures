@@ -26,3 +26,11 @@ Instructions for producing panel comics and animations.
 2. Generate each panel individually.
 3. Assemble panels into a comic page.
 4. Export GIF or static comic.
+
+## Primary Practical Episode
+
+Start with:
+
+`episodes/episode-003-volatco-b-j7-polyforth/`
+
+This episode is designed as a practical follow-along for the animation explainer, focused on the real-world challenge of establishing a stable Volatco B connection at J7 polyForth and proving repeatability across reset.

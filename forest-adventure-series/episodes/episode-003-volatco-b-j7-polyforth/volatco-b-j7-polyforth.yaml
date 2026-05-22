@@ -1,0 +1,13 @@
+title: Volatco B at J7 polyForth Bring-up
+
+objective: Establish a stable connection to Volatco B through J7 polyForth and run a repeatable sanity cycle.
+
+hardware_focus: Volatco B board, J7 connector path, polyForth session bootstrap, cable orientation and signal sanity checks.
+
+expected_outcome: A repeatable connect-load-run loop that survives reset and can be reproduced by new users.
+
+characters:
+  - Fox
+  - Owl
+  - Hedgehog
+  - Squirrel

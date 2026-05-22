@@ -1,20 +1,41 @@
-import yaml
+import argparse
 from pathlib import Path
 
-EPISODE_FILE = "episode.yaml"
-OUTPUT_DIR = Path("episode")
+import yaml
 
-OUTPUT_DIR.mkdir(exist_ok=True)
 
-with open(EPISODE_FILE) as f:
-    data = yaml.safe_load(f)
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Generate episode scaffold files from YAML.")
+    parser.add_argument(
+        "--episode-file",
+        default="episode.yaml",
+        help="Path to episode YAML file (default: episode.yaml).",
+    )
+    parser.add_argument(
+        "--output-dir",
+        default="episode",
+        help="Directory for generated files (default: episode).",
+    )
+    return parser.parse_args()
 
-title = data["title"]
-objective = data["objective"]
-hardware = data["hardware_focus"]
-outcome = data["expected_outcome"]
 
-script = f"""
+def main() -> None:
+    args = parse_args()
+    episode_file = Path(args.episode_file)
+    output_dir = Path(args.output_dir)
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    with episode_file.open() as f:
+        data = yaml.safe_load(f)
+
+    title = data["title"]
+    objective = data["objective"]
+    hardware = data["hardware_focus"]
+    outcome = data["expected_outcome"]
+    characters = data.get("characters", [])
+    cast_line = ", ".join(characters) if characters else "Forest cast"
+
+    script = f"""
 # {title}
 
 Objective
@@ -53,14 +74,15 @@ Panel 8
 Humorous closing remark.
 """
 
-(Path("episode") / "script.md").write_text(script)
+    (output_dir / "script.md").write_text(script)
 
-prompts = f"""
+    prompts = f"""
 Use the Forest Adventure Series characters.
 
 Environment: woodland forest clearing.
 
 Episode: {title}
+Cast: {cast_line}
 
 Panel prompts:
 
@@ -89,10 +111,15 @@ panel-08
 Humorous closing panel.
 """
 
-(Path("episode") / "panel-prompts.md").write_text(prompts)
+    (output_dir / "panel-prompts.md").write_text(prompts)
 
-checklist = "\n".join([f"panel-{i:02}.jpg" for i in range(1,9)])
+    checklist = "\n".join([f"panel-{i:02}.jpg" for i in range(1, 9)])
 
-(Path("episode") / "panel-checklist.txt").write_text(checklist)
+    (output_dir / "panel-checklist.txt").write_text(checklist)
 
-print("Episode generated.")
+    print(f"Episode generated from: {episode_file}")
+    print(f"Output directory: {output_dir}")
+
+
+if __name__ == "__main__":
+    main()
