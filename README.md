@@ -74,10 +74,10 @@ These are the highest-value contribution areas right now:
 Episodes have scripts/prompts, but most panel image sets are not generated/committed yet.
 
 2. Prompt quality depth
-Generated prompts are structurally consistent but still generic; they need stronger scene specificity and continuity constraints.
+Generated prompts are now criteria-aligned (stakes, autonomy, season/time, aeonForth), but still need stronger episode-specific scene direction and continuity constraints for final visual quality.
 
 3. Episode script depth consistency
-Episode 001 has practical commissioning intent; Episodes 002-004 still need richer, technical beat-by-beat teaching detail.
+Episode structure is now consistent across 001-004, but Episodes 002-004 still need more command-level technical checkpoints and acceptance signals to match Episode 001 depth.
 
 4. QA and acceptance criteria
 We need per-episode "definition of done" checks (story quality + technical correctness + visual continuity).
@@ -96,4 +96,5 @@ A simple one-command validation script for scaffold/build checks would reduce on
 
 1. Finalize Episode 001 panel art with consistent technical visual anchors (`VOLATCO-B`, `921600`, monitor command moments, `ok` prompt).
 2. Deepen Episode 002-004 scripts from generic template beats into practical teaching narratives.
+2. Add command-level checkpoints and concrete success signals to Episodes 002-004, using Episode 001 as the technical rigor baseline.
 3. Add lightweight contributor checklist for "ready to render" and "ready to publish" states.
